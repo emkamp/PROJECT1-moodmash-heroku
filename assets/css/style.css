@@ -118,7 +118,7 @@ border:8px solid plum;
         padding: 7px;
         border-radius: 25px;
 				/*JN: Dont like this but I'm done*/
-				margin-top:300px;
+				margin-top:50px;
     }
 
     #moodHeading {
@@ -275,7 +275,6 @@ border:8px solid plum;
 	#city {
         width: 75%;
         font-size: 24px;
-        color:LawnGreen;
         border: solid white 2px;
         border-radius: 6px;
         margin:0 auto 20px
