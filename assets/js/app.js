@@ -19,6 +19,12 @@ var genPlaylist = [];
 
 
 function cityLaunch(e) {
+	    // fake click on "productive" to mask the "events only show up on second click" issue
+    $('*[data-emo="Productive"]').click();
+
+    //hide the music stuff since user hasn't asked for a playlist yet
+    $("#page2").hide();
+
     e.preventDefault();
 
     //set the user city
@@ -164,9 +170,14 @@ $('#add-city').on('click', cityLaunch);
 $('#emotions').on('click', '.btn-warning', genPlaylists);
 
 $(".btn-warning").on("click", function() {
+
+    $("#page2").show();
+
     $("#artist-events").empty();
     $("#playlist-items").empty();
+
     artists = [];
+    
     topic = $(this).attr("data-emo");
     var listArr = [];
     // leaving this as playlist instead of artist because jason got the spotify authorization
