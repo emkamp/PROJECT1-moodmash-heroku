@@ -125,6 +125,9 @@ border:8px solid plum;
         /* left: 440px; */
         /* top: 15px; */
         /*font-family: 'Clicker Script', cursive;*/
+        position: relative;
+        font-family: 'Clicker Script', cursive;
+        font-size: 27px;
         font-size: 27px;
     }
 
@@ -182,6 +185,7 @@ border:8px solid plum;
         background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwFR4Jk0bOhPdGtm86VpRNNe4-cmCcd2tiuUKjcUs00eQf3_Td");
         border: solid gold 6px;
         border-radius: 12px;
+        padding: 35px 35px 35px 35px;
     }
 
     #suggestions {
@@ -193,6 +197,7 @@ border:8px solid plum;
         background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE6ET0Je372pmzoyrpfqHzQov9NFmLnWxI96BG5PfbvqXbMqg");
         border: solid gold 6px;
         border-radius: 12px;
+         padding: 35px 35px 35px 35px;
     }
 
     #playerLayer {
@@ -226,6 +231,7 @@ border:8px solid plum;
         /* left: 110px; */
         /*font-family: 'Clicker Script', cursive;*/
         font-size: 23px;
+         padding:5px 25px 35px 25px;
     }
 
     .event-div {
@@ -248,6 +254,12 @@ border:8px solid plum;
 		}
 
 
+#btn-auth:hover {
+
+            font-size: 19.2px;
+        }
+
+
   #other-playlists {
 
     background-color: blue
@@ -260,6 +272,18 @@ border:8px solid plum;
     border: solid black 5px;
   }
 
+  #city {
+        width: 425px;
+        font-size: 24px;
+        color:LawnGreen;
+        border: solid white 2px;
+        border-radius: 6px;
+    }
+
+    input{
+   text-align:center;
+
+}
 	#emotions > center > button {
 		border: 5px solid PapayaWhip;
 		border-radius: 8px;
