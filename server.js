@@ -12,6 +12,7 @@ var redirect_uri = 'https://moodmash.herokuapp.com/';
 //var redirect_uri = 'https://moodmash.herokuapp.com/callback';
 var user_id = '';
 
+var PORT = process.env.PORT || 9000;
 var app = express();
 
 app.use(express.static(__dirname));
@@ -95,4 +96,9 @@ app.get('/callback', function(req, res) {
 });
 
 console.log('Spotify App running on port: 9000');
-app.listen(9000);
+
+
+// Connection to PORT
+app.listen(PORT, function() {
+  console.log(`Listening On Port: ${PORT}`);
+});
