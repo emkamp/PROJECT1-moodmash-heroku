@@ -280,6 +280,7 @@ border:8px solid plum;
         color:LawnGreen;
         border: solid white 2px;
         border-radius: 6px;
+				margin:0 auto;
     }
 
     input{
